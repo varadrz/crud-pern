@@ -261,7 +261,7 @@ export default function TablePage() {
                                         type={col.data_type === 'integer' ? 'number' : 'text'}
                                         disabled={isReadOnly}
                                         placeholder={isReadOnly ? '(Auto-generated)' : ''}
-                                        className={`w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-shadow ${isReadOnly ? 'bg-gray-50 text-gray-500 cursor-not-allowed' : 'border-gray-300'}`}
+                                        className={`w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-shadow ${isReadOnly ? 'bg-gray-50 text-gray-500 cursor-not-allowed' : 'bg-white text-gray-900 border-gray-300'}`}
                                         value={formData[col.column_name] || ''}
                                         onChange={e => setFormData({ ...formData, [col.column_name]: e.target.value })}
                                     />
