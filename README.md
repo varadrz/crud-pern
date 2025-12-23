@@ -6,8 +6,8 @@ A full-stack CRUD application built with Next.js and Neon PostgreSQL.
 This project demonstrates a production-grade CRUD application allowing users to view, create, update, and delete records in a PostgreSQL database managed by Neon. The application uses Next.js App Router for both the frontend UI and the backend API routes.
 
 ## Architecture
-- **Frontend**: Next.js (React) using Tailwind CSS (minimal/no-framework approach was requested but simplified inline styles used).
-- **Backend**: Next.js API Routes (Serverless) handling REST requests.
+- **Frontend**: Next.js (React) using Tailwind CSS for a modern, responsive UI.
+- **Backend**: Node.js runtime environment using Next.js API Routes (Serverless) to handle REST requests and business logic.
 - **Database**: Neon Serverless PostgreSQL.
 - **Hosting**: Designed for Vercel deployment.
 
